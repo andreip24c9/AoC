@@ -1,7 +1,6 @@
-import dec_3.Dec3
-import dec_3.Dec3Part2
+import dec_4.Dec4
 
 fun main() {
-    val challenge = Dec3Part2()
+    val challenge = Dec4()
     challenge.printResult()
 }
