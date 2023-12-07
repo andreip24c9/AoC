@@ -1,7 +1,6 @@
 package dec_4
 
 import utils.AocChallenge
-import utils.forEachLineIndexed
 import java.io.File
 
 class Dec4 : AocChallenge {
@@ -9,7 +8,7 @@ class Dec4 : AocChallenge {
 
     init {
         var sum = 0
-        File("dec_4").forEachLineIndexed { index, line ->
+        File("dec_4").forEachLine { line ->
             val winningAndOwnArrays = line.split(": ")[1].split(" | ")
 
             val winningArray = winningAndOwnArrays[0].split(" ")
